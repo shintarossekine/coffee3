@@ -1,0 +1,600 @@
+@charset "utf-8";
+
+@media screen and (max-width: 767px) {
+
+    
+ * {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:"Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    border: none;
+    display: block;
+    width: 100%;
+}
+
+header {
+        width: 100%;
+        height: auto;
+    }    
+
+    
+#mainphoto {
+      background-image:  url("images/mainphoto.png");
+      background-size: cover;
+      background-position: center 0;
+      width: 100%;
+      background-repeat: no-repeat;
+      height: 242px; 
+      margin-bottom: 62px;
+    }
+
+
+ /*menu*/
+    
+    
+.menu1 {
+    height: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    z-index: 99;
+}
+.menu1__line {
+    background: #fff;
+    display: block;
+    height: 2px;
+    position: absolute;
+    transition:transform .3s;
+    width: 100%;
+}
+
+.menu1__line--center {
+    top: 9px;
+    }
+.menu1__line--bottom {
+    bottom: 0;
+    }
+.menu1__line--top.active {
+    top: 8px;
+    transform: rotate(45deg);
+}
+.menu1__line--center.active {
+    transform:scaleX(0);
+}
+.menu1__line--bottom.active {
+    bottom: 10px;
+    transform: rotate(135deg);
+    
+    }
+   /*hambergernav*/
+    
+    
+ .gnav {
+    background: rgba(150, 86, 49,0.95);
+    display: none;
+    height: 30%;
+    position: absolute;
+    width: 100%;
+    z-index: 98;
+    top: 0;
+    right: 0;
+     
+     
+}
+.gnav__wrap {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    justify-content: center; 
+    
+}
+    
+    .gnav__menu {
+        width: 100%;
+        text-align: center;
+    }    
+   
+   
+
+ 
+    
+.gnav__menu__item {
+    margin: 26px 0;
+    
+    
+}
+.gnav__menu__item a {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .5s;
+    display: block;
+    
+    
+    
+}
+.gnav__menu__item a:hover {
+    color: #666;
+}
+
+    h1 {
+        
+        
+        padding: 104px 0 104px 0;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+
+    h1 span {
+        font-size: 20px;
+        color: #FFFFFF;
+        font-weight: bold;
+        background-color: #558252;
+        width: 40%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 2.5px 0 2.5px 0;
+        
+    }
+
+    #all_menu {
+        width: 86%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .toriplemidashi {
+        font-family: HGP明朝E;
+        font-size: 24px;
+        color: #631c14;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .joubu_midashi {
+        color: #558852;
+        font-size: 18px;
+        padding-bottom: 26px;
+        
+    }
+
+    #limited  {
+        margin-bottom: 50px;
+        
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    #limited figure {
+        width: 54%;
+        padding-bottom: 24px;
+    }
+    
+    .textbox {
+        font-size: 13px;
+        width: 54%;
+    }
+
+    .textbox h2 {
+        font-weight: normal;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    
+    .textbox h2 span {
+        font-size: 14px;
+        font-weight: bold; 
+            
+    }
+
+    .textbox p {
+        font-size: 13px;
+        
+    }
+
+    .yen {
+        font-size: 12px;
+        font-weight: bold;
+        text-align: right;
+        display: block;
+        
+    }
+
+    .all_menu all_menu-espresso {
+        
+    }
+
+    .itimasu {
+        
+        
+        
+    }
+
+    .itimasu li {
+      display: block;
+      margin: 0 0px 50px 0px;  
+    }
+
+    .itimasu li:nth-child(6) {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .itimasu figure {
+        overflow: hidden;
+        display: block;
+        width: 54%;
+        margin-bottom: 18px
+    }
+    
+    .itimasu h2 {
+      font-size: 14px;
+      font-weight: normal;
+      margin-bottom: 10px;  
+    }
+
+    .itimasu h2 span {
+      font-size: 14px;
+      font-weight: bold;  
+    }
+
+    .itimasu p {
+      font-size: 13px; 
+    }
+
+    #colddrink {
+      clear: both;
+      margin-bottom: 62px;
+      overflow: hidden;  
+        
+        
+    }
+
+    #colddrink li:nth-child(3) {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .coffee {
+        margin-bottom: 62px;
+        overflow: hidden;
+    }
+
+
+
+    .size {
+        text-align: right;
+        
+    }
+
+    .size span {
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+
+    .cake {
+        clear: both;
+        margin-bottom: 62px;
+        overflow: hidden;
+    }
+    
+    .food li:nth-child(2) {
+        margin: 0;
+    }
+    
+        footer {
+        clear: both;
+        background-image: url("common/images/wabe_ft.png");
+        background-size: cover;
+        background-position:center 0;
+        width: 100%;
+        height: auto;
+    }  
+    
+    
+    #footerinner {
+       width: 72%;
+       margin-right: auto;
+       margin-left: auto;
+       font-size: 14px;
+       padding-top: 42px;
+       padding-bottom: 38px;
+    }
+    
+    #footerinner figure {
+       width: 58%;
+       margin-right: auto;
+       margin-left: auto;
+        
+    }
+    
+    
+    
+    #footerinner img {
+       width: 100%; 
+        
+        
+        
+    }
+    
+    
+    
+    
+    #footerinner p {
+        text-align: center;
+    } 
+    
+    #footertext {
+        margin: 26px 0px 34px 0;
+    }
+
+
+     .top_button {
+	   margin: 0 ;
+	   padding: 0 ;
+       display: none;
+}
+ 
+    .top_button p {
+	  margin: 0 ;
+	  padding: 0 ;
+	  position: fixed ;
+	  right: 16px ;
+	  bottom: 16px ;
+}
+    
+ .move-page-top
+{
+	display: block ;
+	background: #D36015 ;
+	width: 34px ;
+	height: 34px ;
+
+	color: #fff ;
+	line-height: 34px ;
+	text-decoration: none ;
+	text-align: center ;
+
+	-webkit-transition:all 0.3s ;
+	-moz-transition:all 0.3s ;
+	transition:all 0.3s ;
+}
+
+.move-page-top:hover
+{
+	opacity: 0.85 ;
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

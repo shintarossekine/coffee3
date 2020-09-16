@@ -1,0 +1,451 @@
+@charset "utf-8";
+
+@media screen and (min-width: 768px) {
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:"Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    border: none;
+    display: block;
+}
+
+header {
+        width: 100%;
+        height: auto;
+    }    
+
+    
+#mainphoto {
+      background-image:  url("images/mainphoto.png");
+      background-size: cover;
+      background-position: center 0;
+      width: 100%;
+      background-repeat: no-repeat;
+      height: 978px; 
+      margin-bottom: 110px;
+    }
+
+
+ nav {
+        width: 30%;
+        top: 80px;
+        left: 1508px;
+        position: fixed;
+    }
+    
+    nav li {
+        display: block;
+        float: left;
+        padding-right: 40px;
+        
+    } 
+    
+    
+    nav li:nth-child(4) {
+        padding: 0;
+    }
+    
+    nav a {
+        text-decoration: none;
+        font-size: 18px;
+        color: #111;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0);
+        
+    }
+    
+    #square {
+        border: solid 2px #111;
+        display: block;
+        height: 24px;
+        box-sizing: border-box;
+    }
+    
+    #square:hover {
+        border: solid 2px #40b466;
+        box-sizing: border-box;
+    }
+    
+    nav a:hover {
+        color: #40b466;
+        transition: .4s;
+    } 
+
+    h1 {
+        
+        
+        padding: 459px 0 459px 0;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+
+    h1 span {
+        font-size: 24px;
+        color: #FFFFFF;
+        font-weight: bold;
+        background-color: #558252;
+        width: 394px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 12px 0 12px 0;
+        
+    }
+
+    #all_menu {
+        width: 1000px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .toriplemidashi {
+        font-family: HGP明朝E;
+        font-size: 66px;
+        color:  #631c14;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .joubu_midashi {
+        color: #558852;
+        font-size: 24px;
+        padding-bottom: 36px;
+        
+    }
+
+    #limited  {
+        margin-bottom: 70px;
+        
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    #limited figure {
+        width: 259px;
+        padding-bottom: 24px
+    }
+    
+    .textbox {
+        font-size: 14px;
+        width: 259px;
+    }
+
+    .textbox h2 {
+        font-weight: normal;
+        margin-bottom: 10px;
+        
+    }
+
+    
+    .textbox h2 span {
+        font-size: 16px;
+        font-weight: bold; 
+            
+    }
+
+    .textbox p {
+        font-size: 13px;
+        
+    }
+
+    .yen {
+        font-size: 13px;
+        font-weight: bold;
+        text-align: right;
+        display: block;
+        
+    }
+
+    .all_menu all_menu-espresso {
+        
+    }
+
+    .itimasu {
+        
+        
+        
+    }
+
+    .itimasu li {
+      display: block;
+      float: left;
+      margin: 0 111.5px 50px 0px;  
+    }
+
+    .itimasu li:nth-child(3) {
+      margin: 0;  
+    }
+    
+    .itimasu li:nth-child(6) {
+      margin: 0;  
+    }
+    
+    .itimasu figure {
+        overflow: hidden;
+        display: block;
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    
+    .itimasu h2 {
+      font-size: 14px;
+      font-weight: normal;
+      margin-bottom: 10px;  
+    }
+
+    .itimasu h2 span {
+      font-size: 16px;
+      font-weight: bold;  
+    }
+
+    .itimasu p {
+       font-size: 13px; 
+    }
+
+    #colddrink {
+      clear: both;
+      margin-bottom: 110px;
+      overflow: hidden;  
+        
+        
+    }
+
+
+    .coffee {
+        margin-bottom: 110px;
+        overflow: hidden;
+    }
+
+
+
+    .size {
+        text-align: right;
+        
+    }
+
+    .size span {
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+
+    .cake {
+        clear: both;
+        margin-bottom: 110px;
+        overflow: hidden;
+    }
+    
+    footer {
+        clear: both;
+        background-image: url("common/images/wabe_ft.png");
+        background-size: cover;
+        background-position:center 0;
+        width: 100%;
+        height: auto;
+    }  
+    
+    
+    #footerinner {
+       width: 294px;
+       margin-right: auto;
+       margin-left: auto;
+       font-size: 14px;
+       padding-top: 42px;
+       padding-bottom: 38px;
+    }
+    
+    #footerinner figure {
+       width: 256px;
+       margin-right: auto;
+       margin-left: auto;
+        
+    }
+    
+    #footerinner p {
+        text-align: center;
+    } 
+    
+    #footertext {
+        margin: 26px 0px 34px 0;
+    }
+
+    .top_button {
+	   margin: 0 ;
+	   padding: 0 ;
+       display: none;
+}
+ 
+    .top_button p {
+	  margin: 0 ;
+	  padding: 0 ;
+	  position: fixed ;
+	  right: 16px ;
+	  bottom: 16px ;
+}
+    
+ .move-page-top
+{
+	display: block ;
+	background: #D36015 ;
+	width: 50px ;
+	height: 50px ;
+
+	color: #fff ;
+	line-height: 50px ;
+	text-decoration: none ;
+	text-align: center ;
+
+	-webkit-transition:all 0.3s ;
+	-moz-transition:all 0.3s ;
+	transition:all 0.3s ;
+}
+
+.move-page-top:hover
+{
+	opacity: 0.85 ;
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
