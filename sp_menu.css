@@ -82,7 +82,7 @@ header {
  .gnav {
     background: rgba(150, 86, 49,0.95);
     display: none;
-    height: 30%;
+    height: 50%;
     position: absolute;
     width: 100%;
     z-index: 98;
